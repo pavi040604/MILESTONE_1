@@ -6,9 +6,9 @@ load_dotenv()
 import vosk
 import pyaudio
 import json
-import os  # For environment variables
+import os  
 
-# Load Vosk model path from environment variable
+
 VOSK_MODEL_PATH = os.getenv("VOSK_MODEL_PATH")
 
 model = vosk.Model(VOSK_MODEL_PATH)
