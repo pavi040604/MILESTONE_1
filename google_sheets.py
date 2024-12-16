@@ -6,9 +6,9 @@ load_dotenv()
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 from datetime import datetime
-import os  # For accessing environment variables
+import os  
 
-# Use environment variable for credentials file path
+
 CREDENTIALS_FILE = os.getenv("GOOGLE_SHEETS_CREDENTIALS")
 
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
