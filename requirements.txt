@@ -1,0 +1,7 @@
+Flask
+openai-whisper
+transformers
+torch
+google-api-python-client
+pandas
+openai
