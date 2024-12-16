@@ -7,11 +7,11 @@ import requests
 
 #API key
 import requests
-import os  # For accessing environment variables
+import os  
 
-# API URL and Key (loaded from environment variables)
+
 API_URL = "https://api-inference.huggingface.co/models/distilbert-base-uncased-finetuned-sst-2-english"
-API_KEY = os.getenv("HUGGINGFACE_API_KEY")  # Get API key from environment variables
+API_KEY = os.getenv("HUGGINGFACE_API_KEY")  
 
 headers = {"Authorization": f"Bearer {API_KEY}"}
 
